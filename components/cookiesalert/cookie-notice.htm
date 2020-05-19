@@ -1,0 +1,8 @@
+<div class="cookie-notice">
+  <div class="container">
+    <div>
+      {{cookie_notice_content}}
+    </div>
+    <button data-request="{{ __SELF__ }}::onConfirmCookies" data-request-success="this.parentNode.parentNode.removeChild(this.parentNode)">{{button_text}}</button>
+  </div>
+</div>

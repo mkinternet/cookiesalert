@@ -1,0 +1,22 @@
+fields:
+  cookiealert_message:
+    label: 'Content'
+    comment: 'Cookie notice content'
+    type: text
+    default: 'This site uses cookies. By continuing to browse the site, you are agreeing to our use of cookies.'
+  cookiealert_policyuri:
+    label: 'Policy url'
+    comment: 'Policy url'
+    type: text
+    default: '/policy-privacy'
+  cookiealert_policydescription:
+    label: 'Policy description'
+    comment: 'Policy description'
+    type: text
+    default: 'Policy privacy'
+  cookiealert_agreebutton:
+    label: 'Agree button'
+    comment: 'Agree button label'
+    type: text
+    default: 'I agree'    
+
