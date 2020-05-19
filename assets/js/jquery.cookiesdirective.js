@@ -198,7 +198,7 @@
 				html += '<a style="color:'+ settings.linkColor + ';font-weight:bold;';
 				html += 'font-family:' + settings.fontFamily + ';font-size:' + settings.fontSize + ';" href="'+ settings.privacyPolicyUri + '">'+ settings.privacyPolicyDescription + '</a>. ';
 				html += ' <input type="hidden" name="epdagree" value="1" id="epdagree" />&nbsp;';
-				html += '<a href="" class="btn btn-phone btn-sm" name="explicitsubmit" id="explicitsubmit">'+ settings.agreeButton + '</a></div>';
+				html += '<a href="" class="btn btn-default btn-sm" name="explicitsubmit" id="explicitsubmit">'+ settings.agreeButton + '</a></div>';
 
 			} else {
 				// Implied consent disclosure
